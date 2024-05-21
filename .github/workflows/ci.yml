@@ -84,4 +84,4 @@ jobs:
         with:
           args: deploy -P staging --only database,functions,hosting
         env:
-          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

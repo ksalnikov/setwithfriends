@@ -31,7 +31,7 @@ jobs:
         with:
           args: deploy -P default --only database,functions
         env:
-          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
       - name: Deploy to Netlify
         uses: South-Paw/action-netlify-deploy@v1.2.0
