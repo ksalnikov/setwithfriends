@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "setw-ef360",
-    "staging": "setw-ef360"
+    "default": "setwithfriends",
+    "staging": "setwithfriends"
   }
 }
